@@ -48,11 +48,23 @@
  C:/Users/sokol/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src/SPI.h \
  C:/Users/sokol/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-spi.h \
  .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/User_Setup_Select.h \
- .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/TFT_Drivers/ST7789_Defines.h \
+ .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/User_Setup.h \
+ .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/User_Setups/Setup_ESP32_S3_Touch_LCD_169.h \
+ .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/TFT_Drivers/ILI9341_Defines.h \
  .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/Processors/TFT_eSPI_ESP32_S3.h \
  C:/Users/sokol/.platformio/packages/framework-arduinoespressif32/libraries/FS/src/FS.h \
  C:/Users/sokol/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src/SPIFFS.h \
  .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/Fonts/glcdfont.c \
+ .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/Fonts/Font16.h \
+ .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/Fonts/Font16.c \
+ .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/Fonts/Font32rle.h \
+ .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/Fonts/Font32rle.c \
+ .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/Fonts/Font64rle.h \
+ .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/Fonts/Font64rle.c \
+ .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/Fonts/Font7srle.h \
+ .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/Fonts/Font7srle.c \
+ .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/Fonts/Font72rle.h \
+ .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/Fonts/Font72rle.c \
  .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/Fonts/GFXFF/gfxfont.h \
  .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/Fonts/GFXFF/TomThumb.h \
  .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/Fonts/GFXFF/FreeMono9pt7b.h \
@@ -113,8 +125,8 @@
  .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/Extensions/Button.h \
  .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/Extensions/Sprite.h \
  .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/Processors/TFT_eSPI_ESP32_S3.c \
- .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/TFT_Drivers/ST7789_Init.h \
- .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/TFT_Drivers/ST7789_Rotation.h \
+ .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/TFT_Drivers/ILI9341_Init.h \
+ .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/TFT_Drivers/ILI9341_Rotation.h \
  .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/Extensions/Button.cpp \
  .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/Extensions/Sprite.cpp \
  .pio/libdeps/esp32s3_touch_lcd/TFT_eSPI/Extensions/Smooth_font.cpp

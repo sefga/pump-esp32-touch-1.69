@@ -126,6 +126,8 @@
 
 //#include <User_Setups/Setup203_ST7789.h>     // Setup file for ESP32/ESP8266 based ST7789 240X280 1.69inch TFT 
 
+#include <User_Setups/Setup_ESP32_S3_Touch_LCD_169.h>     // Setup file for ESP32-S3 Touch-LCD-1.69 with ST7789 240x280
+
 //#include <User_Setups/Setup204_ESP32_TouchDown.h>     // Setup file for the ESP32 TouchDown based on ILI9488 480 x 320 TFT 
 
 //#include <User_Setups/Setup205_ESP32_TouchDown_S3.h>     // Setup file for the ESP32 TouchDown S3 based on ILI9488 480 x 320 TFT 

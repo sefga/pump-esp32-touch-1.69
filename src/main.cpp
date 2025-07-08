@@ -1,30 +1,46 @@
+#include <Arduino.h>
 #include <TFT_eSPI.h>
 
 TFT_eSPI tft = TFT_eSPI();
 
 void setup() {
-  // Инициализация Serial для отладки
   Serial.begin(115200);
-  Serial.println("Запуск ESP32-S3 Touch-LCD-1.69...");
+  Serial.println("Starting TFT test...");
   
   // Инициализация дисплея
   tft.init();
-  tft.setRotation(1);
+  
+  // Поворот экрана (если нужно)
+  tft.setRotation(0);
+  
+  // Очистка экрана черным цветом
   tft.fillScreen(TFT_BLACK);
   
-  // Включение подсветки
-  pinMode(TFT_BL, OUTPUT);
-  digitalWrite(TFT_BL, HIGH);
+  // Установка цвета текста
+  tft.setTextColor(TFT_WHITE, TFT_BLACK);
   
-  // Отображение текста
-  tft.setCursor(10, 10, 4);
-  tft.setTextColor(TFT_GREEN, TFT_BLACK);
-  tft.println("Display OK");
+  // Установка размера шрифта
+  tft.setTextSize(2);
   
-  Serial.println("Инициализация завершена!");
+  // Вывод текста
+  tft.setCursor(10, 10);
+  tft.println("Hello World!");
+  
+  tft.setCursor(10, 40);
+  tft.println("ESP32-S3");
+  
+  tft.setCursor(10, 70);
+  tft.println("TFT Test");
+  
+  // Рисование простых фигур
+  tft.drawRect(10, 100, 100, 50, TFT_RED);
+  tft.fillCircle(180, 125, 25, TFT_GREEN);
+  
+  Serial.println("TFT initialized and text displayed");
 }
 
 void loop() {
-  // Основной цикл пуст для простого примера
-  delay(1000);
+  // Простая индикация работы через Serial
+  Serial.println("Loop running...");
+  delay(2000);
 }
