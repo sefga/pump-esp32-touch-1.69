@@ -4,6 +4,10 @@
 #define LGFX_USE_V1
 #include <LovyanGFX.hpp>
 
+// Глобальные переменные для счетчика
+static int button_click_count = 0;
+static lv_obj_t *counter_label = nullptr;
+
 // Определения пинов для ESP32-S3-Touch-LCD-1.69
 #define SCREEN_WIDTH 240
 #define SCREEN_HEIGHT 280
@@ -142,6 +146,23 @@ void my_touchpad_read(lv_indev_t *indev, lv_indev_data_t *data)
   }
 }
 
+// Обработчик событий кнопки
+static void button_event_cb(lv_event_t *e)
+{
+  lv_event_code_t code = lv_event_get_code(e);
+  
+  if (code == LV_EVENT_CLICKED) {
+    button_click_count++;
+    
+    // Обновляем текст счетчика
+    char buffer[64];
+    snprintf(buffer, sizeof(buffer), "URA POBEDA! Нажатий: %d", button_click_count);
+    lv_label_set_text(counter_label, buffer);
+    
+    Serial.printf("Кнопка нажата! Счетчик: %d\n", button_click_count);
+  }
+}
+
 void setup()
 {
   Serial.begin(115200);
@@ -176,21 +197,24 @@ void setup()
   lv_obj_t *scr = lv_screen_active();
   lv_obj_set_style_bg_color(scr, lv_color_hex(0x000000), LV_PART_MAIN);
   
-  // Create a label
-  lv_obj_t *label = lv_label_create(scr);
-  lv_label_set_text(label, "ESP32-S3-Touch-LCD-1.69\nLVGL 9.3.0 Demo\nTouch the screen!");
-  lv_obj_set_style_text_color(label, lv_color_hex(0xFFFFFF), LV_PART_MAIN);
-  lv_obj_set_style_text_align(label, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN);
-  lv_obj_align(label, LV_ALIGN_CENTER, 0, -50);
+  // Create a label with counter
+  counter_label = lv_label_create(scr);
+  lv_label_set_text(counter_label, "URA POBEDA! Нажатий: 0");
+  lv_obj_set_style_text_color(counter_label, lv_color_hex(0xFFFFFF), LV_PART_MAIN);
+  lv_obj_set_style_text_align(counter_label, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN);
+  lv_obj_align(counter_label, LV_ALIGN_CENTER, 0, -50);
   
   // Create a button
   lv_obj_t *btn = lv_button_create(scr);
-  lv_obj_set_size(btn, 120, 50);
+  lv_obj_set_size(btn, 160, 60);
   lv_obj_align(btn, LV_ALIGN_CENTER, 0, 50);
   lv_obj_set_style_bg_color(btn, lv_color_hex(0x0080FF), LV_PART_MAIN);
   
+  // Добавляем обработчик событий к кнопке
+  lv_obj_add_event_cb(btn, button_event_cb, LV_EVENT_CLICKED, NULL);
+  
   lv_obj_t *btn_label = lv_label_create(btn);
-  lv_label_set_text(btn_label, "Click Me!");
+  lv_label_set_text(btn_label, "Нажми меня!");
   lv_obj_center(btn_label);
   
   Serial.println("UI created successfully");
