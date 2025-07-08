@@ -1,0 +1,30 @@
+.pio/build/esp32s3_touch_lcd/libbe0/lvgl/drivers/display/drm/lv_linux_drm.c.o: \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/display/drm/lv_linux_drm.c \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/display/drm/lv_linux_drm.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\display\lv_display.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_types.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_kconfig.h \
+ C:/Users/sokol/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/dio_qspi/include/sdkconfig.h \
+ C:/Users/sokol/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_common/include/esp_attr.h \
+ C:/example/v1-08-07/.pio/libdeps/esp32s3_touch_lcd/lv_conf.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_timer.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\tick\lv_tick.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_types.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_types.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_ll.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_event.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_array.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_color.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_assert.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_log.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\stdlib\lv_mem.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\stdlib\lv_string.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_types.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_math.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_palette.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_color.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_color_op.h \
+ c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_area.h

@@ -1,1 +1,6 @@
-bodmer/TFT_eSPI@^2.5.43
+fbiego/Timber@1.0.0
+lovyan03/LovyanGFX@1.1.16
+fbiego/ChronosESP32@1.7.0
+bblanchon/ArduinoJson@7.1.0
+FastIMU=https://github.com/LiquidCGS/FastIMU/archive/refs/tags/1.2.6.zip
+lvgl/lvgl@9.3.0
