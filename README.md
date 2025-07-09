@@ -1,138 +1,14 @@
-# ESP32-S3 Touch-LCD-1.69 - Простейший пример
+# ESP32-S3-Touch-LCD-1.69 Counter
 
-## Описание проекта
+This is a simple counter application for the ESP32-S3-Touch-LCD-1.69 board.
 
-Это минимальный рабочий пример для платы ESP32-S3 Touch-LCD-1.69 от Waveshare, созданный с использованием PlatformIO. Проект отображает текст "Display OK" на экране для проверки работоспособности дисплея.
+## Features
 
-## Структура проекта
+- Touch screen button
+- Counter display
 
-```
-.
-├── platformio.ini    # Конфигурация PlatformIO
-├── src/
-│   └── main.cpp      # Основной код программы
-└── README.md         # Данный файл
-```
+## How to build
 
-## Технические характеристики
-
-- **Микроконтроллер:** ESP32-S3R8
-- **Дисплей:** 1.69" LCD 240x280, драйвер ST7789V2
-- **Интерфейс:** SPI для дисплея
-- **Подсветка:** GPIO38
-
-## Распиновка дисплея
-
-| Функция | GPIO | Описание |
-|---------|------|----------|
-| TFT_SCLK | 12 | SPI Clock |
-| TFT_MOSI | 11 | SPI Data Out |
-| TFT_CS | 10 | Chip Select |
-| TFT_DC | 9 | Data/Command |
-| TFT_RST | 13 | Reset |
-| TFT_BL | 38 | Backlight Control |
-
-## Установка и запуск
-
-### Предварительные требования
-
-1. **PlatformIO IDE** (VS Code + расширение PlatformIO)
-2. **USB-кабель** для подключения платы
-3. **Плата ESP32-S3 Touch-LCD-1.69**
-
-### Шаги запуска
-
-1. **Подключение платы:**
-   - Подключите плату к компьютеру через USB-C
-   - Убедитесь, что плата определяется как COM4
-
-2. **Открытие проекта:**
-   ```bash
-   # В терминале PlatformIO
-   cd c:\example\v1-08-07
-   ```
-
-3. **Сборка проекта:**
-   ```bash
-   pio run
-   ```
-
-4. **Загрузка на плату:**
-   ```bash
-   pio run --target upload
-   ```
-
-5. **Мониторинг Serial:**
-   ```bash
-   pio device monitor
-   ```
-
-### Альтернативный способ (через GUI PlatformIO)
-
-1. Откройте папку проекта в VS Code
-2. В панели PlatformIO нажмите:
-   - **Build** для сборки
-   - **Upload** для загрузки
-   - **Monitor** для просмотра Serial вывода
-
-## Ожидаемый результат
-
-- На дисплее должен появиться зеленый текст "Display OK" на черном фоне
-- В Serial Monitor должны появиться сообщения:
-  ```
-  Запуск ESP32-S3 Touch-LCD-1.69...
-  Инициализация завершена!
-  ```
-
-## Решение проблем
-
-### Черный экран
-
-1. **Проверьте Serial Monitor** - есть ли сообщения об ошибках?
-2. **Проверьте подключение** - качественный USB-кабель, правильный COM-порт
-3. **Проверьте питание** - попробуйте другой USB-порт
-4. **Перезагрузите плату** - нажмите кнопку RESET
-
-### Ошибки компиляции
-
-1. **Обновите PlatformIO:**
-   ```bash
-   pio upgrade
-   ```
-
-2. **Очистите кэш:**
-   ```bash
-   pio run --target clean
-   ```
-
-### Проблемы с загрузкой
-
-1. **Войдите в режим загрузки:**
-   - Удерживайте кнопку BOOT
-   - Нажмите и отпустите RESET
-   - Отпустите BOOT
-   - Попробуйте загрузить снова
-
-## Конфигурация
-
-Все настройки дисплея заданы в `platformio.ini` через build_flags:
-
-- **ST7789_DRIVER=1** - драйвер дисплея
-- **TFT_WIDTH=240, TFT_HEIGHT=280** - разрешение
-- **USE_HSPI_PORT=1** - использование HSPI (важно для ESP32-S3)
-- **SPI_FREQUENCY=80000000** - частота SPI 80MHz
-
-## Следующие шаги
-
-После успешного запуска базового примера можно:
-
-1. Добавить поддержку сенсорного ввода (CST816T)
-2. Реализовать графический интерфейс
-3. Добавить Wi-Fi функциональность
-4. Интегрировать датчики (IMU, RTC)
-
-## Ссылки
-
-- [Документация TFT_eSPI](https://github.com/Bodmer/TFT_eSPI)
-- [PlatformIO ESP32 Platform](https://docs.platformio.org/en/latest/platforms/espressif32.html)
-- [ESP32-S3 Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf)
+1. Install PlatformIO
+2. Clone this repository
+3. Run `pio run -t upload`
