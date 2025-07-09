@@ -134,19 +134,25 @@ void my_disp_flush(lv_display_t *display, const lv_area_t *area, unsigned char *
 // LVGL input device callback
 void my_touchpad_read(lv_indev_t *indev, lv_indev_data_t *data)
 {
-  uint16_t touchX, touchY;
-  bool touched = tft.getTouch(&touchX, &touchY);
-  
-  if (touched) {
-    data->state = LV_INDEV_STATE_PRESSED;
-    data->point.x = touchX;
-    data->point.y = touchY;
-  } else {
-    data->state = LV_INDEV_STATE_RELEASED;
-  }
+    static lv_coord_t last_x = 0;
+    static lv_coord_t last_y = 0;
+
+    uint16_t touchX, touchY;
+    bool touched = tft.getTouch(&touchX, &touchY);
+
+    if (touched) {
+        last_x = touchX;
+        last_y = touchY;
+        data->state = LV_INDEV_STATE_PRESSED;
+    } else {
+        data->state = LV_INDEV_STATE_RELEASED;
+    }
+
+    data->point.x = last_x;
+    data->point.y = last_y;
 }
 
-// Обработчик событий кнопки
+// Button event handler
 static void button_event_cb(lv_event_t *e)
 {
   lv_event_code_t code = lv_event_get_code(e);
@@ -154,12 +160,12 @@ static void button_event_cb(lv_event_t *e)
   if (code == LV_EVENT_CLICKED) {
     button_click_count++;
     
-    // Обновляем текст счетчика
+    // Update counter text
     char buffer[64];
-    snprintf(buffer, sizeof(buffer), "URA POBEDA! Нажатий: %d", button_click_count);
+    snprintf(buffer, sizeof(buffer), "Button clicked! Count: %d", button_click_count);
     lv_label_set_text(counter_label, buffer);
     
-    Serial.printf("Кнопка нажата! Счетчик: %d\n", button_click_count);
+    Serial.printf("Button clicked! Count: %d\n", button_click_count);
   }
 }
 
@@ -199,7 +205,7 @@ void setup()
   
   // Create a label with counter
   counter_label = lv_label_create(scr);
-  lv_label_set_text(counter_label, "URA POBEDA! Нажатий: 0");
+  lv_label_set_text(counter_label, "Button clicked! Count: 0");
   lv_obj_set_style_text_color(counter_label, lv_color_hex(0xFFFFFF), LV_PART_MAIN);
   lv_obj_set_style_text_align(counter_label, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN);
   lv_obj_align(counter_label, LV_ALIGN_CENTER, 0, -50);
@@ -210,11 +216,11 @@ void setup()
   lv_obj_align(btn, LV_ALIGN_CENTER, 0, 50);
   lv_obj_set_style_bg_color(btn, lv_color_hex(0x0080FF), LV_PART_MAIN);
   
-  // Добавляем обработчик событий к кнопке
+  // Add event handler to the button
   lv_obj_add_event_cb(btn, button_event_cb, LV_EVENT_CLICKED, NULL);
   
   lv_obj_t *btn_label = lv_label_create(btn);
-  lv_label_set_text(btn_label, "Нажми меня!");
+  lv_label_set_text(btn_label, "Click me!");
   lv_obj_center(btn_label);
   
   Serial.println("UI created successfully");
@@ -223,6 +229,7 @@ void setup()
 
 void loop()
 {
+  lv_tick_inc(5);
   lv_timer_handler();
   delay(5);
 }
