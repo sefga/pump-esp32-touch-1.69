@@ -184,7 +184,7 @@
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/lv_init.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/lv_conf_internal.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/lv_conf_kconfig.h \
- C:/example/v1-08-07/.pio/libdeps/esp32s3_touch_lcd/lv_conf.h \
+ C:/example/pump-esp32-touch-1.69/.pio/libdeps/esp32s3_touch_lcd/lv_conf.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/misc/lv_types.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/misc/../lv_conf_internal.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/stdlib/lv_mem.h \
@@ -216,7 +216,7 @@
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/misc/../draw/lv_draw_buf.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/misc/../draw/../misc/lv_types.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/misc/../draw/../misc/lv_area.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/misc/../draw/../misc/../lv_conf_internal.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/misc/../draw/../misc/lv_types.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/misc/../draw/../misc/lv_math.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/misc/../draw/../misc/lv_color.h \
@@ -237,14 +237,14 @@
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/misc/cache/class/lv_cache_lru_rb.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/misc/cache/class/../lv_cache_private.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/misc/cache/class/../../lv_types.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\osal\lv_os.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_types.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\osal\lv_os_none.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/misc/cache/class/../../../osal/lv_os.h \
+ c:\example\pump-esp32-touch-1.69\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
+ c:\example\pump-esp32-touch-1.69\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_types.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/misc/cache/class/../../../osal/lv_os_none.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/misc/cache/class/lv_cache_lru_ll.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/misc/cache/instance/lv_cache_instance.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/misc/cache/instance/lv_image_header_cache.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_types.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/misc/cache/instance/../../lv_types.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/misc/cache/instance/lv_image_cache.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/tick/lv_tick.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/lv_obj.h \
@@ -252,11 +252,11 @@
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../misc/lv_types.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../misc/lv_style.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../misc/../font/lv_font.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_types.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../misc/../font/../lv_conf_internal.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../misc/../font/../misc/lv_types.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../misc/../font/lv_symbol_def.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\draw\lv_draw_buf.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_area.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../misc/../font/../draw/lv_draw_buf.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../misc/../font/../misc/lv_area.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../misc/lv_color.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../misc/lv_area.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../misc/lv_anim.h \
@@ -268,14 +268,14 @@
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../misc/lv_bidi.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../misc/lv_grad.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../misc/../layouts/lv_layout.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_types.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../misc/../layouts/../lv_conf_internal.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../misc/../layouts/../misc/lv_types.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../misc/../layouts/flex/lv_flex.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_area.h \
+ c:\example\pump-esp32-touch-1.69\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
+ c:\example\pump-esp32-touch-1.69\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_area.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../misc/../layouts/grid/lv_grid.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_area.h \
+ c:\example\pump-esp32-touch-1.69\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
+ c:\example\pump-esp32-touch-1.69\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_area.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../misc/lv_style_gen.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../misc/lv_area.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../misc/lv_color.h \
@@ -287,7 +287,7 @@
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../display/../misc/lv_timer.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../display/../misc/lv_event.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../display/../misc/lv_types.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../display/../misc/../lv_conf_internal.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../display/../misc/lv_array.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../display/../misc/lv_color.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../display/../misc/lv_area.h \
@@ -305,7 +305,7 @@
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../draw/../misc/lv_style.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../draw/../misc/lv_text.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../draw/../misc/lv_profiler.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../draw/../misc/../lv_conf_internal.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../draw/../misc/lv_matrix.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../draw/lv_image_decoder.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../draw/lv_draw_buf.h \
@@ -326,9 +326,9 @@
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../misc/lv_event.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../indev/lv_indev.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../indev/../core/lv_group.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_types.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_ll.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../indev/../core/../lv_conf_internal.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../indev/../core/../misc/lv_types.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../indev/../core/../misc/lv_ll.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../indev/../misc/lv_area.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../indev/../misc/lv_timer.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/core/../indev/../misc/lv_event.h \
@@ -347,11 +347,11 @@
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/font/../misc/lv_types.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/animimage/lv_animimage.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/animimage/../image/lv_image.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\core\lv_obj.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_fs.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\draw\lv_draw.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_types.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/animimage/../image/../../lv_conf_internal.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/animimage/../image/../../core/lv_obj.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/animimage/../image/../../misc/lv_fs.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/animimage/../image/../../draw/lv_draw.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/animimage/../../misc/lv_types.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/arc/lv_arc.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/arc/../../lv_conf_internal.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/arc/../../core/lv_obj.h \
@@ -360,42 +360,42 @@
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/bar/../../core/lv_obj.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/bar/../../misc/lv_anim.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/bar/../label/lv_label.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_types.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\core\lv_obj.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\font\lv_font.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\font\lv_symbol_def.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_text.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\draw\lv_draw.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/bar/../label/../../lv_conf_internal.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/bar/../label/../../misc/lv_types.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/bar/../label/../../core/lv_obj.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/bar/../label/../../font/lv_font.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/bar/../label/../../font/lv_symbol_def.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/bar/../label/../../misc/lv_text.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/bar/../label/../../draw/lv_draw.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/button/lv_button.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/button/../../lv_conf_internal.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/button/../../core/lv_obj.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/buttonmatrix/../../lv_conf_internal.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/buttonmatrix/../../core/lv_obj.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/calendar/lv_calendar.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/calendar/../buttonmatrix/lv_buttonmatrix.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/calendar/lv_calendar_header_arrow.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/calendar/../../core/lv_obj.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/calendar/lv_calendar_chinese.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/calendar/lv_calendar.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/canvas/lv_canvas.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/canvas/../../lv_conf_internal.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/canvas/../image/lv_image.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\draw\lv_draw_image.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/canvas/../../draw/lv_draw_image.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/chart/lv_chart.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/chart/../../lv_conf_internal.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/chart/../../core/lv_obj.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/checkbox/lv_checkbox.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/checkbox/../../lv_conf_internal.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/checkbox/../../core/lv_obj.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/dropdown/lv_dropdown.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/dropdown/../../lv_conf_internal.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/dropdown/../label/lv_label.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/image/lv_image.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/imagebutton/lv_imagebutton.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/imagebutton/../../core/lv_obj.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/keyboard/lv_keyboard.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/keyboard/../buttonmatrix/lv_buttonmatrix.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/label/lv_label.h \
@@ -406,13 +406,13 @@
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/list/lv_list.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/list/../../core/lv_obj.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/lottie/lv_lottie.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\misc\lv_types.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/lottie/../../misc/lv_types.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/menu/lv_menu.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/menu/../../core/lv_obj.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/msgbox/lv_msgbox.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/msgbox/../../core/lv_obj.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/roller/lv_roller.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/roller/../../core/lv_obj.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/roller/../label/lv_label.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/scale/lv_scale.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/scale/../../lv_conf_internal.h \
@@ -426,50 +426,50 @@
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/span/../../core/lv_obj.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/spinbox/lv_spinbox.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/spinbox/../textarea/lv_textarea.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\widgets\label\lv_label.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/spinbox/../textarea/../label/lv_label.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/spinner/lv_spinner.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/spinner/../../lv_conf_internal.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/switch/lv_switch.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/switch/../../lv_conf_internal.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/switch/../../core/lv_obj.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/table/lv_table.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/table/../label/lv_label.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/tabview/lv_tabview.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/tabview/../../lv_conf_internal.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/tabview/../../core/lv_obj.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/textarea/lv_textarea.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/tileview/lv_tileview.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/tileview/../../core/lv_obj.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/win/lv_win.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/win/../../lv_conf_internal.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/win/../../core/lv_obj.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/3dtexture/lv_3dtexture.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/widgets/3dtexture/../../lv_conf_internal.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/snapshot/lv_snapshot.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/snapshot/../../core/lv_obj.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/sysmon/lv_sysmon.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/sysmon/../../misc/lv_timer.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/sysmon/../../others/observer/lv_observer.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\core\lv_obj.h \
+ c:\example\pump-esp32-touch-1.69\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\core\lv_obj.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/monkey/lv_monkey.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/monkey/../../lv_conf_internal.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/monkey/../../indev/lv_indev.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/gridnav/lv_gridnav.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/gridnav/../../core/lv_obj.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/fragment/lv_fragment.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/fragment/../../core/lv_obj.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/imgfont/lv_imgfont.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\font\lv_font.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/imgfont/../../lv_conf_internal.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/imgfont/../../font/lv_font.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/observer/lv_observer.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/ime/lv_ime_pinyin.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/ime/../../lv_conf_internal.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/ime/../../core/lv_obj.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/file_explorer/lv_file_explorer.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/file_explorer/../../lv_conf_internal.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/file_explorer/../../core/lv_obj.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/font_manager/lv_font_manager.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\font\lv_font.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/font_manager/../../font/lv_font.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/xml/lv_xml.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/xml/../../misc/lv_types.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/others/xml/../../misc/lv_event.h \
@@ -483,7 +483,7 @@
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/libs/barcode/../../misc/lv_color.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/libs/barcode/../../widgets/canvas/lv_canvas.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/libs/bin_decoder/lv_bin_decoder.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\draw\lv_image_decoder.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/libs/bin_decoder/../../draw/lv_image_decoder.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/libs/bmp/lv_bmp.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/libs/bmp/../../lv_conf_internal.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/libs/rle/lv_rle.h \
@@ -507,7 +507,7 @@
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/libs/qrcode/../../widgets/canvas/lv_canvas.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/libs/tjpgd/lv_tjpgd.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/libs/libjpeg_turbo/../../lv_conf_internal.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/libs/freetype/lv_freetype.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/libs/freetype/../../lv_conf_internal.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/libs/rlottie/lv_rlottie.h \
@@ -552,13 +552,13 @@
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/x11/../../indev/lv_indev.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/x11/../../draw/lv_image_dsc.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/display/drm/lv_linux_drm.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\display\lv_display.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/display/drm/../../../display/lv_display.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/display/fb/lv_linux_fbdev.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\display\lv_display.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/display/fb/../../../display/lv_display.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\display\lv_display.h \
+ c:\example\pump-esp32-touch-1.69\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\display\lv_display.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\display\lv_display.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/display/lcd/../../../display/lv_display.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/display/ili9341/../lcd/lv_lcd_generic_mipi.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/display/st7735/lv_st7735.h \
@@ -568,11 +568,11 @@
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/display/st7796/lv_st7796.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/display/st7796/../lcd/lv_lcd_generic_mipi.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\display\lv_display.h \
+ c:\example\pump-esp32-touch-1.69\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\display\lv_display.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/display/st_ltdc/../../../lv_conf_internal.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/display/ft81x/lv_ft81x.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/display/ft81x/../../../lv_conf_internal.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/nuttx/lv_nuttx_entry.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/nuttx/../../lv_conf_internal.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/nuttx/../../display/lv_display.h \
@@ -584,10 +584,10 @@
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/evdev/lv_evdev.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/evdev/../../indev/lv_indev.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/libinput/lv_libinput.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\indev\lv_indev.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/libinput/../../indev/lv_indev.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/windows/lv_windows_input.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\display\lv_display.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\indev\lv_indev.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/windows/../../display/lv_display.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/windows/../../indev/lv_indev.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/windows/lv_windows_display.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/glfw/lv_glfw_window.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/glfw/../../lv_conf_internal.h \
@@ -597,10 +597,10 @@
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/qnx/../../display/lv_display.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/qnx/../../indev/lv_indev.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/wayland/lv_wayland.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/wayland/../../lv_conf_internal.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/uefi/lv_uefi_context.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/uefi/../../lvgl.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lvgl\lvgl.h \
+ .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/uefi/../../../lvgl.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/uefi/../../lv_conf_internal.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/uefi/lv_uefi_indev.h \
  .pio/libdeps/esp32s3_touch_lcd/lvgl/src/drivers/uefi/../../indev/lv_indev.h \
@@ -614,7 +614,7 @@
  .pio/libdeps/esp32s3_touch_lcd/LovyanGFX/src/lgfx/v1/gitTagVersion.h \
  .pio/libdeps/esp32s3_touch_lcd/LovyanGFX/src/lgfx/v1/platforms/device.hpp \
  .pio/libdeps/esp32s3_touch_lcd/LovyanGFX/src/lgfx/v1/platforms/esp32/Light_PWM.hpp \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lovyangfx\src\lgfx\v1\light.hpp \
+ .pio/libdeps/esp32s3_touch_lcd/LovyanGFX/src/lgfx/v1/platforms/esp32/../../Light.hpp \
  .pio/libdeps/esp32s3_touch_lcd/LovyanGFX/src/lgfx/v1/platforms/esp32/Bus_SPI.hpp \
  C:/Users/sokol/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_rom/include/esp32s3/rom/lldesc.h \
  C:/Users/sokol/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/driver/include/driver/spi_common_internal.h \
@@ -637,16 +637,16 @@
  C:/Users/sokol/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_pm/include/esp_pm.h \
  C:/Users/sokol/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_pm/include/esp32s3/pm.h \
  C:/Users/sokol/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/soc/esp32s3/include/soc/rtc.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lovyangfx\src\lgfx\v1\bus.hpp \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lovyangfx\src\lgfx\v1\misc/enum.hpp \
+ .pio/libdeps/esp32s3_touch_lcd/LovyanGFX/src/lgfx/v1/platforms/esp32/../../Bus.hpp \
+ .pio/libdeps/esp32s3_touch_lcd/LovyanGFX/src/lgfx/v1/platforms/esp32/../../misc/enum.hpp \
  .pio/libdeps/esp32s3_touch_lcd/LovyanGFX/src/lgfx/v1/platforms/esp32/../common.hpp \
  .pio/libdeps/esp32s3_touch_lcd/LovyanGFX/src/lgfx/v1/platforms/esp32/../esp32/common.hpp \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lovyangfx\src\lgfx\v1\misc\datawrapper.hpp \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lovyangfx\src\lgfx\utility\pgmspace.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lovyangfx\src\lgfx\utility\result.hpp \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lovyangfx\src\lgfx\internal\memory.h \
+ .pio/libdeps/esp32s3_touch_lcd/LovyanGFX/src/lgfx/v1/platforms/esp32/../esp32/../../misc/DataWrapper.hpp \
+ c:\example\pump-esp32-touch-1.69\.pio\libdeps\esp32s3_touch_lcd\lovyangfx\src\lgfx\utility\pgmspace.h \
+ c:\example\pump-esp32-touch-1.69\.pio\libdeps\esp32s3_touch_lcd\lovyangfx\src\lgfx\utility\result.hpp \
+ c:\example\pump-esp32-touch-1.69\.pio\libdeps\esp32s3_touch_lcd\lovyangfx\src\lgfx\internal\memory.h \
  C:/Users/sokol/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/soc/esp32s3/include/soc/i2s_reg.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lovyangfx\src\lgfx\utility\result.hpp \
+ .pio/libdeps/esp32s3_touch_lcd/LovyanGFX/src/lgfx/v1/platforms/esp32/../../../utility/result.hpp \
  .pio/libdeps/esp32s3_touch_lcd/LovyanGFX/src/lgfx/v1/platforms/esp32/Bus_I2C.hpp \
  .pio/libdeps/esp32s3_touch_lcd/LovyanGFX/src/lgfx/v1/platforms/esp32s3/Bus_Parallel8.hpp \
  C:/Users/sokol/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_lcd/include/esp_lcd_panel_io.h \
@@ -707,7 +707,7 @@
  .pio/libdeps/esp32s3_touch_lcd/LovyanGFX/src/lgfx/v1/touch/Touch_FT5x06.hpp \
  .pio/libdeps/esp32s3_touch_lcd/LovyanGFX/src/lgfx/v1/touch/Touch_GSLx680.hpp \
  .pio/libdeps/esp32s3_touch_lcd/LovyanGFX/src/lgfx/v1/touch/gslx680/Touch_GSLx680_FW.h \
- c:\example\v1-08-07\.pio\libdeps\esp32s3_touch_lcd\lovyangfx\src\lgfx\utility\pgmspace.h \
+ .pio/libdeps/esp32s3_touch_lcd/LovyanGFX/src/lgfx/v1/touch/gslx680/../../../utility/pgmspace.h \
  .pio/libdeps/esp32s3_touch_lcd/LovyanGFX/src/lgfx/v1/touch/Touch_GT911.hpp \
  .pio/libdeps/esp32s3_touch_lcd/LovyanGFX/src/lgfx/v1/touch/Touch_NS2009.hpp \
  .pio/libdeps/esp32s3_touch_lcd/LovyanGFX/src/lgfx/v1/touch/Touch_STMPE610.hpp \
